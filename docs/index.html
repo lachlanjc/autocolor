@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<title>autocolor</title>
+<meta name="description" content="CLI for generating CSS color utilities">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="autocolor">
+<meta name="twitter:site" content="@lachlanjc">
+<meta name="twitter:description" content="CLI for generating CSS color utilities">
+<meta name="twitter:image" content="https://lachlanjc.me/autocolor/icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet prefetch" href="https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css">
+<style>
+* { box-sizing: border-box; }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0c;
+  background-image: linear-gradient(120deg, #0cf, #f0c);
+}
+main { min-height: 100vh; }
+.mono { font-family: SFMono-Regular, Menlo, monospace; }
+</style>
+<main class="w-100 mw6 ph3 pv5 sans-serif white lh-title">
+  <div class="bt bw3 b--white w4"></div>
+  <h1 class="mv3 f1 mono lh-title">autocolor</h1>
+  <p class="mv2 f4">CLI for generating CSS color utilities</p>
+  <pre class="bg-black-50 mt4 mb2 white pa2 br2 mono">npm i -g autocolor
+autocolor 0cf fc0 cf0 0fc</pre>
+  <pre class="bg-black-50 mt2 mb4 white-90 f6 pa2 br2 mono">.cerulean { color: #0cf; }
+.bg-cerulean { background-color: #0cf; }
+.b--cerulean { border-color: #0cf; }
+
+.sunglow { color: #fc0; }
+.bg-sunglow { background-color: #fc0; }
+.b--sunglow { border-color: #fc0; }
+
+.inch-worm { color: #cf0; }
+.bg-inch-worm { background-color: #cf0; }
+.b--inch-worm { border-color: #cf0; }
+
+.caribbean-green { color: #0fc; }
+.bg-caribbean-green { background-color: #0fc; }
+.b--caribbean-green { border-color: #0fc; }</pre>
+  <section class="fw6">
+    <span class="normal">Made by</span>
+    <a href="https://lachlanjc.me" class="no-underline white mr3">@lachlanjc</a>
+    <a href="https://github.com/lachlanjc/autocolor" class="no-underline white mr3">GitHub</a>
+    <a href="https://npmjs.com/package/autocolor" class="no-underline white">npm</a>
+  </section>
+</main>

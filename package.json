@@ -1,0 +1,27 @@
+{
+  "name": "autocolor",
+  "version": "1.0.0",
+  "description": "CLI for generating CSS color utilities",
+  "bin": {
+    "autocolor": "bin/autocolor.js"
+  },
+  "scripts": {
+    "icon": "repng docs/Icon.js -w 512 -h 512 --out-dir docs --filename icon"
+  },
+  "keywords": [
+    "css",
+    "cli"
+  ],
+  "author": "Lachlan Campbell",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^1.1.2",
+    "color-namer": "^1.1.0",
+    "lodash": "^4.17.4",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "react": "^15.5.4",
+    "repng": "^2.0.0-alpha.1"
+  }
+}
