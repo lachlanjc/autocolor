@@ -12,7 +12,7 @@ CLI for generating CSS color utilities
 - Separate colors with commas or spaces
 
 ```sh
-npm i autocolor
+npm i -g autocolor
 autocolor 0cf fc0 cf0 0fc
 ```
 
